@@ -1,0 +1,49 @@
+
+body{
+    background-color: #12181b;
+}
+
+.cell{
+    color: aliceblue;
+    width: 75px;
+    height: 75px;
+    border: 2px solid;
+    box-shadow: 0 0 0 2px;
+    line-height: 75px;
+    font-size: 50px;
+    cursor: pointer;
+}
+#gameContainer{
+    color: aliceblue;
+    font-family: "Permanent Marker", cursive;
+    text-align: center;
+}
+#cellContainer{
+    color: aliceblue;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 225px;
+    margin: auto;
+}
+#restartBtn{
+    font-weight: 400;
+    background-color: #09c372;
+    color: aliceblue;
+    padding: 13px;
+    border: none;
+    border-radius: 8px;
+    transition: all 0.5s ease;
+    margin-right: 10px;
+    animation: fadeInUp 1s ease-in-out 0.5s backwards;
+}
+.playerX span {
+    color: #09c372; 
+}
+
+.playerO span {
+    color: #498afb; 
+}
+#restartBtn:hover{
+    background-color: rgb(73, 138, 251);
+    box-shadow: 0 0 10px 2px rgb(73, 138, 251);
+}
